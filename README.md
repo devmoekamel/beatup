@@ -13,6 +13,7 @@
 
 * Python 
 * Django 
+* mysql 
 * Visual Studio Code (Recommended but not obligatory)
 
 ## Installing
