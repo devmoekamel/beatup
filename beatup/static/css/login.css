@@ -1,0 +1,116 @@
+*{
+
+
+
+padding: 0%;
+margin: 0%;
+box-sizing:border-box;
+}
+
+
+
+body{
+
+background-color: #0A0A19;
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+
+.form{
+    width: 546px;
+    height: 366px;
+    background-color:#44429C ;
+    position: absolute;
+    top: 150px;
+    position: relative;
+    border-radius: 47px;
+
+}
+.loginformword{
+    position: absolute;
+    top: 12px;
+    left: 199px;
+
+
+}
+
+.loginform{
+
+    position: absolute;
+    top: 77px;
+    left: 37px;
+}
+.loginformword h1{
+
+  color: white;
+}
+    
+
+.form-label {
+    color: white;
+}
+.form-text{
+
+    color: white;
+}
+input  {
+    
+    background: transparent;
+    border-radius: 0px;
+    
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    width: 147%;
+
+}
+input:focus{
+     color: #212529; 
+     background-color:none;
+     border-color: none; 
+    outline: 0;
+    box-shadow: none;
+  
+}
+/* {
+
+    background: transparent;
+    border-radius: 0px;
+    
+    border-left: none;
+    border-top: none;
+    border-right: none;
+} */
+input:focus {
+
+    color: #212529; 
+    background-color:none;
+    border-color: none; 
+   outline: 0;
+   box-shadow: none!important;
+ 
+}
+.btn {
+    /* padding-right: 21px; */
+    background-color: black;
+    border-radius: 18px;
+    padding: 6px 31px;
+    color: white!important  ;
+    margin-top: 17px;
+  transition: all ease 5s;
+
+}
+.btn:hover {
+
+    background-color: yellowgreen;
+    
+}
+
+/* ------------------------------------------------------------- */
+
+
+

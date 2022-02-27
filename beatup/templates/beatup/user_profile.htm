@@ -1,0 +1,33 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="{% static 'css/userprofile.css' %}">
+    <title>Document</title>
+</head>
+<body>
+    {% for post in posts%}
+    <div class="post">
+        <div class="post-details">
+            <h2><a href="#">{{post.author}}</a></h2>
+            <h5>{{post.date}}</h5>
+            {%if post.author == request.user%}
+                 <a href="{% url 'editpost' post.id %}"><i class="fa-solid fa-pen-to-square fa-lg"></i></a> 
+                 <a href="{%url 'deletepost' post.id %}"><i class="fa-solid fa-trash fa-lg"></i></a>
+            {%endif%}
+        </div>
+    <div class="post-content">
+        <p>{{post.text|safe}}</p>
+    
+    </div>
+    
+    </div>
+    
+    {% endfor %} 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/all.min.js" integrity="sha512-yFjZbTYRCJodnuyGlsKamNE/LlEaEAxSUDe5+u61mV8zzqJVFOH7TnULE2/PP/l5vKWpUNnF4VGVkXh3MjgLsg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>

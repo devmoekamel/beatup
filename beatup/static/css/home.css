@@ -1,0 +1,305 @@
+*{
+margin: 0%;
+padding: 0% ;
+box-sizing: border-box;
+}
+
+body{
+
+
+background-color: #0A0A19;
+}
+/* -------------------------------------NAVBAR  ------------------------------------------ */
+/* 
+nav{
+
+    width: 100%;
+    height: 120px;
+    background-color: #44429C;
+}
+
+
+.logo{
+
+padding-top: 25px;
+margin-left: 76px;
+
+}
+.logo a{
+
+    text-decoration: none;
+    color: white;
+}
+
+.logo a span{
+
+    font-size: 19px;
+
+}
+
+
+.navbar-mid{
+
+    margin-left: 140px;
+
+    padding-top: 40px;
+    display: flex;
+}
+.navbar-mid .nav-list {
+list-style: none;
+
+}
+.navbar-mid .nav-list li {
+
+    margin-right: 127px;
+
+}
+
+
+.navbar-mid .nav-list li a {
+
+color:#FAF8FA;
+text-decoration: none;
+
+}
+
+.btn {
+    margin-left: 69px;
+    margin-top: 32px;
+
+
+}   
+
+.btn a{
+    color: white;
+    text-decoration: none;
+    background-color: rgb(8,48,84);
+    padding: 12px 24px;
+    border-radius: 22px;
+}
+.btn a:hover{
+    color: white;
+    background-color: yellowgreen;
+   transition-duration: 3s;
+} */
+
+nav{
+    background-color: #44429C;
+    padding-bottom:100px ;
+}
+nav a{
+    text-decoration: none;
+    color: white!important;
+}
+.logo{
+
+    padding-left: 28px;
+
+}
+.navbar-nav{
+    margin-left: 135px;
+
+
+}
+.nav-item{
+    padding-right: 81px;
+
+}
+.navbar-toggler-icon{
+    color: white;
+}
+.btn{
+    padding-right: 57px;
+ 
+}
+.navbar-toggler{
+    border: none!important;
+    box-shadow: none!important;
+}
+
+.btn a{
+    color: white;
+    text-decoration: none;
+    background-color: rgb(8,48,84);
+    padding: 12px 24px;
+    border-radius: 22px;
+}
+.btn a:hover{
+    color: white;
+    background-color: yellowgreen;
+   transition-duration: 3s;
+}
+
+/* ------------------------------------------ end-navbar-------------------------------------------- */
+
+/* ------------------------------------------section-header -------------------------------------------- */
+
+section{
+width: auto;
+height: 443px;
+margin-top: 35px;
+
+background-color: #44429C;
+padding-top: 50px;
+padding-bottom: 70px;
+}
+
+.section-description{
+
+    height: auto;
+    width: auto;
+    position: relative;
+
+
+}
+.section-description h1{
+
+    color: white;
+    color: white;
+    position: absolute;
+    top: 34px;
+    left: 68px;
+    font-size: 32px;
+    font-weight: 900;
+
+}
+/* .section-description h1 span{
+
+color: rgb(8,48,84);
+
+font-size: large;
+font-weight: 900;
+
+
+} */
+
+.section-description .volume-cover   {
+    
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(8,48,84);
+    border-radius: 50%;
+    top: 203px;
+    left: 104px;
+
+}
+
+.section-description .volume-cover .volumeplus {
+    color: white;
+    position: absolute;
+    top: 8px;
+    left: 11px;
+    cursor: pointer;
+
+}
+
+
+.section-description .play-cover {
+    
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(8,48,84);
+    border-radius: 50%;
+    top: 171px;
+    left: 239px;
+
+
+}
+.section-description .play-cover .play{
+    color: white;
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    cursor: pointer;
+}
+
+
+.section-description .play-cover .pause{
+    color: white;
+    position: absolute;
+    top: 10px;
+    left: 25px;
+
+    display: none;
+    cursor: pointer;
+
+}
+
+
+.section-description .volumemin-cover{
+
+
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(8,48,84);
+    border-radius: 50%;
+    top: 203px;
+    left: 451px;
+
+
+}
+
+
+
+.section-description .volumemin-cover .volumemin {
+    color: white;
+    position: absolute;
+    top: 8px;
+    left: 11px;
+    cursor: pointer;
+
+}
+
+/* ------------------------------------------end-section-header -------------------------------------------- */
+
+
+
+
+.beat{
+     background-color:#44429C ;
+     margin-top: 50px;
+}
+
+
+
+.beat-r{
+
+
+    padding-top: 34px;
+    padding-bottom: 20px;
+}
+.cd{
+
+    padding-left: 128px;
+    color: white;
+    margin-bottom: 10px;
+
+}
+
+svg.svg-inline--fa.fa-compact-disc.fa-10x {
+    animation: rotate 1s infinite;
+}
+
+
+@keyframes rotate{
+
+from{ transform:rotate(0deg);}
+to{transform: rotate(360deg);}
+
+
+}
+
+.beat-decs{
+
+color: white;
+
+}
+.beat-decs h2 {
+    color: white;
+    font-weight: bold;
+    font-size: 43px;
+
+}
