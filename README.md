@@ -19,7 +19,7 @@
 
 Step One : Clone the repo without checking out a work tree.
 ```
-git clone -n <repo-url>
+git clone https://github.com/divmoe/beatup.git
 ```
 Step Two : open your own cmd and hit : .
 ```
