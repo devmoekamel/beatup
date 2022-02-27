@@ -13,7 +13,7 @@
 
 * Python 
 * Django 
-* mysql 
+* mysql -> you  must have MYsql  environment like xampp or using default sqlite db 
 * Visual Studio Code (Recommended but not obligatory)
 
 ## Installing
