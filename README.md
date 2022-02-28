@@ -1,6 +1,6 @@
 # Beatup
 
- Dashboard is the open source tading  Web  application developed within Djnago (Web Framwork). This application is based on high-level programming language, Python. The advantages of using python are 
+ Beatup is the open source tading  Web  application developed within Djnago (Web Framwork). This application is based on high-level programming language, Python. The advantages of using python are 
 * Improved productivity
 * Interpreted language
 * Dynamically typed
